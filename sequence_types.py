@@ -1,6 +1,8 @@
 # sequrence type - list & tuple
-# data structure - list
+# list is mutable
+# tuple is immutable
 
+# list - []
 days = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
 print(type(days))  # list
@@ -16,13 +18,18 @@ print(len(days))
 days.reverse()
 print(days)
 
-# list operation - append
-days.append("Sat")
-print(days)
-
 # list operation - clear
 days.clear()
 print(days)
 
+# list operation - append
+days.append("Sat")
+print(days)
+
 # find data in list with order infomation
 print(days[0])  # Thu
+
+# tuple - ()
+days2 = ("Mon", "Tue", "Wed", "Thu", "Fri")
+
+print(type(days2))  # tuple
