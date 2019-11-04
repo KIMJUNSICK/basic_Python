@@ -1,5 +1,4 @@
 # Built-in-function
-
 print("junsik")  # junsik
 print(len("Asdasdd"))  # 7
 
@@ -10,3 +9,11 @@ print(type(age))
 new_age = int(age)
 print(new_age)
 print(type(new_age))
+
+
+# Custom function
+def junsik():
+    print("junsikkim")
+
+
+junsik()
